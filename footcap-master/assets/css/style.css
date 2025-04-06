@@ -1348,3 +1348,23 @@ a.footer-link:is(:hover, :focus) { color: var(--bittersweet); }
   }
 
 }
+
+/* About Section */
+.section.about {
+  text-align: center;
+  padding-block: var(--section-padding);
+}
+
+.about .section-title {
+  margin-bottom: 20px;
+  font-size: var(--fs-2);
+  font-weight: var(--fw-700);
+}
+
+.about-text {
+  color: var(--onyx);
+  font-family: var(--ff-roboto);
+  font-size: var(--fs-6);
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
